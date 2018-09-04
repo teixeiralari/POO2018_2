@@ -1,0 +1,13 @@
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.exe.config
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.exe
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.pdb
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.csproj.CoreCompileInputs.cache
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.exe
+C:\Users\Larissa\Documents\Visual Studio 2017\Projetos\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.pdb
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.exe.config
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.exe
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\bin\Debug\caVetor2D.pdb
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.csprojAssemblyReference.cache
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.csproj.CoreCompileInputs.cache
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.exe
+C:\Users\Larissa\Dropbox\POO\Lab01\caVetor2D\caVetor2D\obj\Debug\caVetor2D.pdb
