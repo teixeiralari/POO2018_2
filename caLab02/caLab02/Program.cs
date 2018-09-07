@@ -13,13 +13,13 @@ namespace caLab02
             Estacionamento[] estacionamento = new Estacionamento[5];
             
             int i;
-            for (i = 0; i < 1; i++)
+            for (i = 0; i < 5; i++)
             {
                 estacionamento[i] = new Estacionamento();
                 estacionamento[i].solicitaDados();
             }
             Console.WriteLine("------------------ RELATÓRIO ---------------------");
-            for (i = 0; i < 1; i++)
+            for (i = 0; i < 5; i++)
             {
                 Console.WriteLine("VEÍCULO " + (i+1));
                 estacionamento[i].imprimeCarro();
