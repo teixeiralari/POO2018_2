@@ -1,0 +1,7 @@
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\bin\Debug\caLab02.exe.config
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\bin\Debug\caLab02.exe
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\bin\Debug\caLab02.pdb
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\obj\Debug\caLab02.csproj.CoreCompileInputs.cache
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\obj\Debug\caLab02.exe
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\obj\Debug\caLab02.pdb
+C:\Users\laris\OneDrive\Documentos\Visual Studio 2017\Projects\caLab02\caLab02\obj\Debug\caLab02.csprojAssemblyReference.cache
