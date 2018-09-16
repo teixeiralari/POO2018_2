@@ -1,0 +1,10 @@
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\bin\Debug\wfaAluno_Materia.exe.config
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\bin\Debug\wfaAluno_Materia.exe
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\bin\Debug\wfaAluno_Materia.pdb
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.Form1.resources
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.Properties.Resources.resources
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.csproj.GenerateResource.cache
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.csproj.CoreCompileInputs.cache
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.exe
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.pdb
+C:\Users\laris\Dropbox\POO\Lab03\wfaAluno_Materia\wfaAluno_Materia\obj\Debug\wfaAluno_Materia.csprojAssemblyReference.cache
