@@ -1,0 +1,153 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization;
+using System.IO;
+
+namespace wfaArquivosExemplos
+{
+    public partial class frmArquivos : Form
+    {
+        private BinaryFormatter formatter = new BinaryFormatter();
+        private BinaryFormatter reader = new BinaryFormatter();
+        string filename;
+        private FileStream arquivo;
+
+        public frmArquivos()
+        {
+            InitializeComponent();
+        }
+
+        private void rbProfessor_Click(object sender, EventArgs e)
+        {
+            lblTipo.Text = "Formação: ";
+        }
+
+        private void rbAluno_Click(object sender, EventArgs e)
+        {
+            lblTipo.Text = "Curso:";
+        }
+
+        private void frmArquivos_Shown(object sender, EventArgs e)
+        {
+            rbProfessor.Select();
+        }
+
+        private void btnCriarArquivo_Click(object sender, EventArgs e)
+        {
+            filename = "";
+            SaveFileDialog fileChooser = new SaveFileDialog();
+            DialogResult pathArquivo = fileChooser.ShowDialog();
+
+            if (pathArquivo == DialogResult.OK)
+            {
+                filename = fileChooser.FileName;
+                MessageBox.Show(filename, "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else return;
+
+            if (filename == "" || filename == null)
+                MessageBox.Show("Nome de Arquivo Inválido", "Erro",
+                   MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                // save file via FileStream if user specified valid file
+                try
+                {
+                    // open file with write access
+                    arquivo = new FileStream(filename,
+                       FileMode.OpenOrCreate, FileAccess.Write);
+                 
+                }
+
+                // handle exception if file does not exist
+                catch (FileNotFoundException)
+                {
+                    // notify user if file does not exist
+                    MessageBox.Show("Arquivo não existe", "Erro",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                arquivo.Close();
+            }
+        }
+
+        private void btnAbrirArquivo_Click(object sender, EventArgs e)
+        {
+            filename = "";
+            OpenFileDialog fileChooser = new OpenFileDialog();
+            DialogResult pathArquivo = fileChooser.ShowDialog();
+
+            filename = fileChooser.FileName;
+
+            if (filename == "" || filename == null)
+                MessageBox.Show("Nome de Arquivo Inválido", "Erro",
+                   MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else
+            {
+                try
+                {
+                    // open file with write access
+                    arquivo = new FileStream(filename,
+                       FileMode.Open, FileAccess.ReadWrite);
+                }
+
+                // handle exception if file does not exist
+                catch (FileNotFoundException)
+                {
+                    // notify user if file does not exist
+                    MessageBox.Show("Arquivo não existe", "Erro",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void btnGravarArquivo_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (rbAluno.Checked)
+                {
+                    Aluno aluno = new Aluno();
+                    aluno.setNome(txtNome.Text);
+                    aluno.setEndereco(txtEnd.Text);
+                    aluno.setIdade(Convert.ToInt32(txtIdade.Text));
+                    aluno.setCurso(txtCursoFormacao.Text);
+
+                    formatter.Serialize(arquivo, aluno);
+                }
+
+                else
+                {
+                    Professor professor = new Professor();
+                    professor.setNome(txtNome.Text);
+                    professor.setEndereco(txtEnd.Text);
+                    professor.setIdade(Convert.ToInt32(txtIdade.Text));
+                    professor.setFormacao(txtCursoFormacao.Text);
+
+                    formatter.Serialize(arquivo, professor);
+                }
+
+                MessageBox.Show("Registro salvo com sucesso!", "Informação",
+                   MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (SerializationException)
+            {
+                MessageBox.Show("Erro ao escrever no arquivo", "Erro",
+                   MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            // notifica o usuário sobre erro de formato
+            catch (FormatException)
+            {
+                MessageBox.Show("Formato Inválido", "Erro",
+                   MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+}

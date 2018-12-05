@@ -1,0 +1,7 @@
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\bin\Debug\caQ1.exe.config
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\bin\Debug\caQ1.exe
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\bin\Debug\caQ1.pdb
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\obj\Debug\caQ1.csprojAssemblyReference.cache
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\obj\Debug\caQ1.csproj.CoreCompileInputs.cache
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\obj\Debug\caQ1.exe
+C:\Users\Larissa\Dropbox\POO\Prova1\caQ1\caQ1\obj\Debug\caQ1.pdb
